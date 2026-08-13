@@ -11,37 +11,21 @@ vendor/
 .env.local
 *.env.*
 
-# Editor/IDE
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# PHP specific
+*.php~
+.php_cs.cache
 
 # Build artifacts
 build/
 dist/
-*.so
-*.dll
-*.exe
-*.out
-
-# Testing
-.coverage
-coverage/
-htmlcov/
-.phpunit.result.cache
-
-# Composer/Packagist
-composer.lock
-vendor/composer/
 ```
