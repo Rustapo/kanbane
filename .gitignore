@@ -1,35 +1,47 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
 # Dependencies
 vendor/
-node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
-
-# Backup and swap files
-*~
-*.bak
 *.swp
 *.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.so
+*.dll
+*.exe
+*.out
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.phpunit.result.cache
+
+# Composer/Packagist
+composer.lock
+vendor/composer/
 ```
