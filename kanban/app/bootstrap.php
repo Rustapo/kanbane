@@ -109,5 +109,6 @@ function initializeDataStructure(): void {
 initializeDataStructure();
 
 // Подключение вспомогательных функций
+require_once __DIR__ . '/helpers/exceptions.php';
 require_once __DIR__ . '/helpers/functions.php';
 require_once __DIR__ . '/helpers/response.php';
